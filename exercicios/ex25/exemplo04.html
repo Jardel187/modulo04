@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novos Inputs</title>
+</head>
+<body>
+    <h1>Telefone e e-mail</h1>
+    <form action="exemplo01.php" method="post" autocomplete="on">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <p>
+                <label for="inome">Nome</label>
+                <input type="text" name="nome" id="inome" minlength="5" maxlength="20">
+            
+            </p>
+            
+            <p>
+                <label for="iphone">Telefone</label>
+                <input type="tel" name="phone" id="iphone" autocomplete="tel  " required pattern="^\(\d{2}\)\d{4,5}-\d{4}$" placeholder="(xx)xxxxx-xxxx">
+            </p>
+            
+            <p>
+                <label for="imail">e-mail</label>
+                <input type="email" name="mail" id="imail" autocomplete="email" placeholder="exemplo@outlook.com">
+            </p>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
