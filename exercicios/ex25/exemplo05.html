@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo</title>
+</head>
+<body>
+    <h1>Exemplo de Formulario</h1>
+    <form action="exemplo01.php" method="post" autocomplete="on">
+        <fieldset>
+            <legend>Sexo</legend>
+            
+            <input type="radio" name="sexo" id="isexo" value="M">
+            <label for="isexo"> Masculino </label> <br>
+
+            <input type="radio" name="sexo" id="isexof" value="F">
+            <label for="isexof"> Feminino </label>
+
+        </fieldset>
+        
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+           
+            <input type="checkbox" name="soccer" id="isoccer" >
+            <label for="isoccer"> Futebol </label> <br>
+           
+            <input type="checkbox" name="bas" id="ibas">
+            <label for="ibas"> Basquetebol </label><br>
+
+            <input type="checkbox" name="corr" id="icorr">
+            <label for="icorr"> F1 </label><br>
+
+            <input type="checkbox" name="eletr" id="ieletr">
+            <label for="ieletr"> E-Sports</label>
+
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form>
+</body>
+</html>
