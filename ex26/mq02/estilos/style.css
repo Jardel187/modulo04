@@ -1,3 +1,25 @@
 @charset "UTF-8";
 
 /* todas as tela (all) */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Sevillana&family=Sofadi+One&family=Yuji+Mai&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Raleway", sans-serif;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #233eff;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: white;
+    text-shadow: 2px 2px 0px #1526a7;
+    padding: 10px;
+}
